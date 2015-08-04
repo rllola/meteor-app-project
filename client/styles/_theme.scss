@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900);
+
+body, html {
+	width: 100%;
+	height:100%;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.feature {
+	display:inline-block;
+	vertical-align:top;
+	color: white;
+
+	.container {
+		padding: 20px 30px;
+
+		h1 {
+			font-size: 1.5em;
+		}
+	}
+}
+
+#price {
+	background-color: #22313F;
+	width: 33.333333333%;
+	height: 50%;
+}
+
+#map {
+	background-color: #FF3366;
+	float: right;
+	height: 100%;
+	width: 66.666666666%;
+}
+
+#twitter {
+	background-color: #0084B4;
+	width: 16.666666667%;
+	height: 25%;
+}
+
+#google {
+	background-color: #D50F25;
+	width: 16.666666667%;
+	height: 25%;
+}
+
+#facebook {
+	background-color: #3b5998;
+	width: 16.666666667%;
+	height: 25%;
+}
+
+#bitcoin {
+	background-color: #FF9900;
+	width: 16.666666667%;
+	height: 25%;
+}
